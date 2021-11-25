@@ -23,7 +23,7 @@ Nonebot v2 虚拟朋友插件
 ##### 2.使用
   普通用户命令:
   
-    vf connect vf_name  
+    vf connect <vf_name>  
     虚拟朋友 连接 虚拟朋友名称  # 连接到一个虚拟朋友
     
     vf disconnect 
@@ -31,7 +31,13 @@ Nonebot v2 虚拟朋友插件
     
     vf list 
     虚拟朋友 列出 # 列出当前可用的虚拟朋友
-  管理员命令:
+  超级用户命令:
+    
+    vf transfer <vf_name> <user_id>
+    虚拟朋友 转接 虚拟朋友名称 用户id # 将虚拟朋友转接到一个用户, 被转接的用户无需连接直接使用
   
-    vf release vf_name
+    vf release <vf_name>
     虚拟朋友 释放 虚拟朋友名称  # 强制断开此虚拟朋友的会话, 仅superuser可用
+    
+    vf list
+    虚拟朋友 列出 # 列出当前可用的虚拟朋友, 超级用户返回的内容更为详细
