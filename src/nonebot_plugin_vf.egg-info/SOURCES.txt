@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nonebot_plugin_vf.egg-info/PKG-INFO
+src/nonebot_plugin_vf.egg-info/SOURCES.txt
+src/nonebot_plugin_vf.egg-info/dependency_links.txt
+src/nonebot_plugin_vf.egg-info/top_level.txt
+src/vf_package/__init__.py
+src/vf_package/api.py

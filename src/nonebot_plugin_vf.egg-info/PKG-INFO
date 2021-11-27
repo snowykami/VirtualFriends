@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-vf
+Version: 0.0.1
+Summary: Nonebot2 plugin
+Home-page: https://github.com/pypa/sampleproject
+Author: SnowyKami
+Author-email: snowykami@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/snowyfirefly/VirtualFriends
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Virtual Friend
+#### nonebot-plugin-virtualfriend
+
+基于Nonebot 2.0 具体使用方法看github
+[Project on Github](https://github.com/snowyfirefly/VirtualFriends)
+
