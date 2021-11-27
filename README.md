@@ -1,43 +1,5 @@
-# nonebot_plugin_vf
+# Virtual Friend
+#### nonebot-plugin-virtualfriend
 
-Nonebot v2 虚拟朋友插件
-
-原理简单, 除标准库外无需任何依赖项
-
-可以用来应付自己的对象
-
-以下的"vf"是"virtual_friend"的简写
-
-## 1.配置虚拟朋友
-
-#### 目前支持: 虚拟男友, 虚拟女友
-
-##### 1.添加
-
-    (1).打开手机QQ, 随便建一个QQ群, 把小冰加进来, @小冰并发送"创造男友","创造女友"
-
-    (2).点开小冰发送的链接, 按照要求进行注册, 并添加虚拟朋友为好友
-
-    (3).当虚拟朋友出现在消息列表中, 添加成功!!!
-    
-##### 2.使用
-  普通用户命令:
-  
-    vf connect <vf_name>  
-    虚拟朋友 连接 虚拟朋友名称  # 连接到一个虚拟朋友
-    
-    vf disconnect 
-    虚拟朋友 断开 # 从当前会话断开
-    
-    vf list 
-    虚拟朋友 列出 # 列出当前可用的虚拟朋友
-  超级用户命令:
-    
-    vfs transfer <vf_name> <user_id>
-    虚拟朋友管理 转接 虚拟朋友名称 用户id # 将虚拟朋友转接到一个用户, 被转接的用户无需连接直接使用
-  
-    vfs release <vf_name>
-    虚拟朋友管理 释放 虚拟朋友名称  # 强制断开此虚拟朋友的会话, 仅superuser可用
-    
-    vfs list
-    虚拟朋友管理 列出 # 列出当前可用的虚拟朋友, 超级用户返回的内容更为详细
+基于Nonebot 2.0 具体使用方法看github
+[Project on Github](https://github.com/snowyfirefly/VirtualFriends)
